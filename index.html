@@ -25,44 +25,34 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+   <!-- NavBar -->
+
+   <nav class="navbar fixed-top navbar-light bg-dark">
+      <form class="form-inline">
+        <button class="btn btn-outline-success" type="button"><a href="#home">Home</a></button>
+        <button class="btn btn-outline-secondary" type="button"><a href="#about">About</a></button>
+        <button class="btn btn-outline-secondary" type="button"><a href="#reserveService">Reservation</a></button>
+      </form>
+    </nav>
+  </div>
+
+
+  <!-- End of NavBar -->
+  <div id="home">
 
   <!-- Header -->
   <header class="masthead  d-flex">
     <div class="container text-center boxSpring my-auto">
       <h1 class="mb-1 titleName">DoGLoVe</h1>
       <h3 class="mb-5">
-          <i class="icon-heart"> <em>We will treat YOUR dog with LOVE, CARE, and RESPECT </em><i class="icon-heart"></i></i>
+          <i class="icon-heart"> <em class="bold">We will treat YOUR dog with LOVE, CARE, and RESPECT </em><i class="icon-heart"></i></i>
       </h3>
       <a class="btn btn-primary btn-xl js-scroll-trigger firstButton" href="#about">Find Out More</a>
     </div>
     <div class="overlay"></div>
   </header>
+</div>
+
 
   <!-- About -->
   <!-- <section class="content-section bg-light" id="about">
@@ -77,9 +67,10 @@
       </div>
     </div>
   </section> -->
-
+  <div id="about">
   <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
+  
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Services</h3>
@@ -91,7 +82,7 @@
             <i class="icon-home"></i>
           </span>
           <h4>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#reserveService">
             <strong class="offerButtons">Dog Sitting</strong>
           </a>
           </h4>
@@ -103,7 +94,7 @@
             <i class="icon-map"></i>
           </span>
           <h4>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#reserveService">
             <strong class="offerButtons">Dog Walks</strong>
             </a>
           </h4>
@@ -114,7 +105,7 @@
             <i class="icon-list"></i>
           </span>
           <h4>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#reserveService">
             <strong class="offerButtons">Dog Errands</strong>
               </a>
           </h4>
@@ -125,7 +116,7 @@
             <i class="icon-drop"></i>
           </span>
           <h4>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#reserveService">
             <strong class="offerButtons">Dog Baths </strong>
             </a>
           </h4>
@@ -133,16 +124,21 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
 
+
   <!-- Callout -->
+  <div id="reserveService">
   <section class="callout">
     <div class="container text-center">
       <h2 class="mx-auto mb-5">
         <em></em></h2>
-      <a class="btn btn-primary fallButton btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Make A Reservation!</a>
+      <a class="btn btn-primary fallButton btn-xl" href="./reservation.html">Make A Reservation!</a>
     </div>
   </section>
+</div>
+
 
   <!-- Portfolio
   <section class="content-section" id="portfolio">
