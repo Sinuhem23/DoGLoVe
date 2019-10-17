@@ -1,12 +1,12 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+# [DoGLove Portfolio](https://sinuhem23.github.io/DoGLoVe/)
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+[Love For Dogs](https://sinuhem23.github.io/DoGLoVe/) is a responsive, one page portfolio theme for [DoGLove](https://sinuhem23.github.io/DoGLoVe/).
 
 ## Preview
 
-[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/screenshots/themes/stylish-portfolio.png)](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
+[![DoGLove Portfolio Preview](img/DoGLove.png)](https://sinuhem23.github.io/DoGLoVe/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)**
+**[View Live Preview](https://sinuhem23.github.io/DoGLoVe/)**
 
 ## Status
 
